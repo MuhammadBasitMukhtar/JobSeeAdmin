@@ -24,11 +24,11 @@ class _adminHomeState extends State<adminHome> {
     return Scaffold(
       body: Stack(
         children: [
-          Image(
-            image: AssetImage(
-                'assets/sl-telehealth-smartphone-doctor-1200x600.jpeg'),
-            height: h * 0.3,
-          ),
+          // Image(
+          //   image: AssetImage(
+          //       'assets/sl-telehealth-smartphone-doctor-1200x600.jpeg'),
+          //   height: h * 0.3,
+          // ),
 
           ///body
 
