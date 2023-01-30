@@ -105,8 +105,8 @@ class UploaderCard extends StatelessWidget {
                           .document(uploader.jobid)
                           .setData(data);
                       var snackdemo = SnackBar(
-                        content: Text('Job Approved Succssfully!'),
-                        backgroundColor: Colors.green,
+                        content: Text('Job Rejected Succssfully!'),
+                        backgroundColor: Colors.red,
                         elevation: 10,
                         behavior: SnackBarBehavior.floating,
                         margin: EdgeInsets.all(5),
